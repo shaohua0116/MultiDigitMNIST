@@ -1,0 +1,6 @@
+*.pyc
+.*.sw[pon]
+.ipynb_checkpoints
+.ipynb_checkpoints/*
+datasets/
+.ropeproject/
