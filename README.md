@@ -1,5 +1,29 @@
 # Multi-digit MNIST for Few-shot Learning
 
+<p align="center">
+    <img src="asset/examples/multimnist_example.png" weight="1024"/>
+</p>
+
+## Cite this repository
+
+```
+@misc{mulitdigitmnist,
+  author = {Sun, Shao-Hua},
+  title = {Multi-digit MNIST for Few-shot Learning},
+  year = {2019},
+  journal = {GitHub repository},
+  url = {https://github.com/shaohua0116/MultiDigitMNIST},
+}
+```
+
+### Papers that use this dataset:
+- MetaSDF: Meta-learning Signed Distance Functions (NeurIPS 2020): [Paper](https://arxiv.org/abs/2006.09662), [Project page](https://vsitzmann.github.io/metasdf/), [Code](https://github.com/vsitzmann/metasdf)
+- Regularizing Deep Multi-Task Networks using Orthogonal Gradients: [Paper](https://arxiv.org/abs/1912.06844)
+- GMAIR: Unsupervised Object Detection Based on Spatial Attention and Gaussian Mixture: [Paper](https://arxiv.org/abs/2106.01722)
+- Data-free meta learning via knowledge distillation from multiple teachers: [Thesis](https://epub.ub.uni-muenchen.de/75191/1/MA_Gruber_Sebastian.pdf)
+
+## Description
+
 `Multi-digit MNIST` generator creates datasets consisting of handwritten digit images from [MNIST](http://yann.lecun.com/exdb/mnist/) for few-shot image classification and meta-learning. It simply samples images from MNIST dataset and put digits together to create images with multiple digits. It also creates training/validation/testing splits (64/20/16 classes for DoubleMNIST and 640/200/160 for TripleMNIST). 
 
 You can generate customized by following the cammands provided in [Usage](https://github.com/shaohua0116/MultiDigitMNIST#usage) to change the number of images in each class, the image size, etc. You can also download generated datasets from [Datasets](https://github.com/shaohua0116/MultiDigitMNIST#datasets).
@@ -82,18 +106,6 @@ Training
 </p>
 
 \*The trainings have not fully converged and the new results will be reported once they are finished.
-
-## Cite this repository
-
-```
-@misc{mulitdigitmnist,
-  author = {Sun, Shao-Hua},
-  title = {Multi-digit MNIST for Few-shot Learning},
-  year = {2019},
-  journal = {GitHub repository},
-  url = {https://github.com/shaohua0116/MultiDigitMNIST},
-}
-```
 
 ## Author
 [Shao-Hua Sun](http://shaohua0116.github.io/)
